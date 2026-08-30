@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESP32-S3 LoRa Core module")
 		(date "2026-07-10")
-		(rev "0.1")
+		(rev "1.0")
 		(company "Embed Genius")
 		(comment 2 "License CC BY-SA")
 		(comment 3 "by Sébastien Bouthillier")
@@ -2239,7 +2239,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin input inverted
 					(at -12.7 -1.27 0)
 					(length 2.54)
 					(name "RST"
@@ -3017,6 +3017,12 @@
 		(uuid "31913cb0-1c4d-4a69-9fb0-c8cc45212b90")
 	)
 	(junction
+		(at 27.94 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f9f8b91-d429-4e1d-aceb-c4e666a72118")
+	)
+	(junction
 		(at 144.78 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3039,12 +3045,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4e82530-624d-4038-bcce-6b8b68df4b80")
-	)
-	(junction
-		(at 27.94 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6d6f9e3-5947-4f65-a5b2-5460b86761fb")
 	)
 	(junction
 		(at 241.3 78.74)
@@ -3199,16 +3199,6 @@
 			(type default)
 		)
 		(uuid "1d5fb451-9142-4878-b934-0f9b9917bf3d")
-	)
-	(wire
-		(pts
-			(xy 27.94 44.45) (xy 27.94 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e0ae1fc-cf28-4a32-bc07-2d5058761e26")
 	)
 	(wire
 		(pts
@@ -3412,6 +3402,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 34.29) (xy 34.29 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c206a5-3220-4d5d-a8b1-2a4042745731")
+	)
+	(wire
+		(pts
 			(xy 77.47 81.28) (xy 91.44 81.28)
 		)
 		(stroke
@@ -3542,16 +3542,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 34.29) (xy 34.29 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "538fb7cf-1589-4e9e-a519-917ac875c285")
-	)
-	(wire
-		(pts
 			(xy 35.56 91.44) (xy 46.99 91.44)
 		)
 		(stroke
@@ -3672,16 +3662,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 35.56) (xy 27.94 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79c93aef-ecaf-4fa3-bc5b-0eeddc465b40")
-	)
-	(wire
-		(pts
 			(xy 91.44 105.41) (xy 91.44 106.68)
 		)
 		(stroke
@@ -3792,16 +3772,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 63.5) (xy 180.34 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d846d49-131b-453e-9541-9955e116e19c")
-	)
-	(wire
-		(pts
 			(xy 166.37 81.28) (xy 173.99 81.28)
 		)
 		(stroke
@@ -3849,6 +3819,26 @@
 			(type default)
 		)
 		(uuid "9a4ed167-8966-483f-85d9-2529b3be3b61")
+	)
+	(wire
+		(pts
+			(xy 166.37 63.5) (xy 180.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd3bf7b-1571-46f9-8d38-547c6c607823")
+	)
+	(wire
+		(pts
+			(xy 27.94 34.29) (xy 27.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff7c90d-6481-4442-a255-f68d49f9f488")
 	)
 	(wire
 		(pts
@@ -3972,16 +3962,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 43.18) (xy 27.94 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6853806-908f-4d04-a46d-751aab684272")
-	)
-	(wire
-		(pts
 			(xy 212.09 64.77) (xy 231.14 64.77)
 		)
 		(stroke
@@ -4082,6 +4062,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 44.45) (xy 27.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3bf47e-98ce-4593-8ad7-41c7544acf55")
+	)
+	(wire
+		(pts
 			(xy 129.54 156.21) (xy 144.78 156.21)
 		)
 		(stroke
@@ -4099,6 +4089,16 @@
 			(type default)
 		)
 		(uuid "cc07ee16-fca6-4040-90f6-6d29abb0096a")
+	)
+	(wire
+		(pts
+			(xy 27.94 43.18) (xy 27.94 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ea5adc-da3e-49af-afcd-b5450a51765e")
 	)
 	(wire
 		(pts
@@ -4290,17 +4290,27 @@
 		)
 		(uuid "fff5f8da-6bc3-4191-8569-f6a205b3906b")
 	)
-	(label "IO47"
-		(at 91.44 93.98 180)
+	(label "IO17"
+		(at 127 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0436d35b-b52e-4fbd-a937-962db0968b3a")
+	)
+	(label "IO40"
+		(at 173.99 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "000d8444-caee-4fac-8498-4750f7435770")
+		(uuid "08032819-5cdf-4091-9196-d907a288d88c")
 	)
-	(label "IO47"
+	(label "IO39"
 		(at 173.99 73.66 180)
 		(effects
 			(font
@@ -4308,35 +4318,15 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "019ab1dd-6ca2-4dff-a644-bd00c4dcf9fd")
-	)
-	(label "IO12"
-		(at 173.99 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "060e0392-5ed6-4462-abe0-cc597f905581")
-	)
-	(label "IO45"
-		(at 173.99 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0615a41d-aa54-4a99-903e-4ab945b5f3b9")
+		(uuid "08177535-e7cd-424b-b6df-e80cb8b37d60")
 	)
 	(label "LORA_NSS"
-		(at 91.44 83.82 180)
+		(at 35.56 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0866b5d3-77f7-4eed-a328-a9a4a71c6cf7")
 	)
@@ -4359,6 +4349,16 @@
 			(justify right bottom)
 		)
 		(uuid "0ed3a1e3-69a5-4530-a7d0-39e3906880fa")
+	)
+	(label "IO38"
+		(at 91.26 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a8d0765-a6b0-43b4-8505-73c21b0f67fc")
 	)
 	(label "IO5"
 		(at 35.56 68.58 0)
@@ -4391,7 +4391,7 @@
 		(uuid "1cfa8921-8c4f-43b4-b1f2-dff9a825996c")
 	)
 	(label "USB_D-"
-		(at 127 68.58 0)
+		(at 127 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4410,16 +4410,6 @@
 		)
 		(uuid "23be5d15-7147-4b93-a75a-a1f6823432d0")
 	)
-	(label "IO11"
-		(at 35.56 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b66f7fb-81f0-44e5-bcd4-427380df9dc8")
-	)
 	(label "IO17"
 		(at 91.44 55.88 180)
 		(effects
@@ -4429,6 +4419,16 @@
 			(justify right bottom)
 		)
 		(uuid "2bfc2493-1244-4df5-a77b-d4620efef0f5")
+	)
+	(label "IO40"
+		(at 91.26 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3677a337-5496-4487-9953-c08012e545ec")
 	)
 	(label "IO18"
 		(at 91.44 58.42 180)
@@ -4440,6 +4440,26 @@
 		)
 		(uuid "3cb9f7f1-2a05-4978-876a-d9c57038c974")
 	)
+	(label "IO18"
+		(at 127 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d16a353-8e09-4a6f-99b7-44f896ca69a6")
+	)
+	(label "IO38"
+		(at 173.99 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3daa91c7-6561-45aa-935d-8601b03b2333")
+	)
 	(label "IO45"
 		(at 91.44 88.9 180)
 		(effects
@@ -4449,16 +4469,6 @@
 			(justify right bottom)
 		)
 		(uuid "41948564-e8e4-4e47-88ed-8e0053821dfe")
-	)
-	(label "IO12"
-		(at 35.56 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43d05b50-c5dd-4fce-b5e3-fa249795bfdf")
 	)
 	(label "LORA_DIO"
 		(at 269.24 57.15 180)
@@ -4470,15 +4480,15 @@
 		)
 		(uuid "44d60cd3-03bf-4388-905b-e6883427f7af")
 	)
-	(label "IO46"
-		(at 173.99 71.12 180)
+	(label "IO41"
+		(at 173.99 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4afff015-d485-4aea-9334-db13f083d876")
+		(uuid "4e9b3a74-eb56-4813-830b-7f19ba02eef6")
 	)
 	(label "IO6"
 		(at 127 63.5 0)
@@ -4510,8 +4520,18 @@
 		)
 		(uuid "54191613-62a0-47c9-be5e-c256739887a8")
 	)
+	(label "IO45"
+		(at 173.99 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "583669c6-4e14-4988-a1e2-f6ccf2abcb68")
+	)
 	(label "LORA_RF_SW1"
-		(at 91.44 76.2 180)
+		(at 91.44 66.04 180)
 		(effects
 			(font
 				(face "Galvji")
@@ -4542,24 +4562,14 @@
 		(uuid "5f5f4a7d-84db-41b0-b3c5-70bf38d70636")
 	)
 	(label "LORA_BUSY"
-		(at 91.44 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "653a0835-96eb-4de8-b5ce-aa8aea99fb57")
-	)
-	(label "IO15"
-		(at 127 76.2 0)
+		(at 35.56 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6638de8b-f07f-467f-a6ae-db9814f087f8")
+		(uuid "653a0835-96eb-4de8-b5ce-aa8aea99fb57")
 	)
 	(label "IO6"
 		(at 35.56 71.12 0)
@@ -4570,16 +4580,6 @@
 			(justify left bottom)
 		)
 		(uuid "6833092c-214f-4a75-8f22-1b16a0d08320")
-	)
-	(label "IO21"
-		(at 91.44 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7069a104-3ecf-4587-a490-3b3af7289f8b")
 	)
 	(label "EN"
 		(at 43.18 50.8 0)
@@ -4592,7 +4592,7 @@
 		(uuid "7654ef6c-651d-44b6-b5f9-e2e002a84985")
 	)
 	(label "LORA_SCK"
-		(at 35.56 76.2 0)
+		(at 35.56 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4611,6 +4611,26 @@
 		)
 		(uuid "84c3456e-d510-479d-b2ba-e8ab318b7742")
 	)
+	(label "IO3"
+		(at 173.99 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86be8147-4623-41cd-98ff-ff3b243f29b4")
+	)
+	(label "IO42"
+		(at 173.99 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b6fafa8-42fb-483c-8102-38723ba435ad")
+	)
 	(label "RXD0"
 		(at 173.99 60.96 180)
 		(effects
@@ -4621,15 +4641,15 @@
 		)
 		(uuid "8d95986f-5a91-4e68-bbde-5eceb34317f0")
 	)
-	(label "IO13"
-		(at 173.99 81.28 180)
+	(label "IO46"
+		(at 173.99 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "8deba367-22b8-4bd3-9309-5c5b0bfdd71f")
+		(uuid "8f08aeb6-62d0-4f58-bcc6-5e2249dd34c9")
 	)
 	(label "IO3"
 		(at 35.56 63.5 0)
@@ -4641,8 +4661,18 @@
 		)
 		(uuid "905903a8-4055-48e1-8fcc-353bb5fbca4d")
 	)
+	(label "IO39"
+		(at 91.26 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90e346d4-7505-4a50-9dd2-0cc772d3bb5e")
+	)
 	(label "USB_D+"
-		(at 127 71.12 0)
+		(at 127 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4661,15 +4691,25 @@
 		)
 		(uuid "93b56bc8-6462-494a-b879-6a4a3bf29425")
 	)
-	(label "IO14"
-		(at 35.56 91.44 0)
+	(label "IO41"
+		(at 91.44 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "963b84f1-50c8-4e9c-a03d-2f947b06ede5")
+	)
+	(label "IO16"
+		(at 127 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9eb36f65-ef15-4efd-9d36-1a6ef19e07bf")
+		(uuid "9cbc40b4-3315-47c7-ade8-09219331c659")
 	)
 	(label "LORA_MISO"
 		(at 217.17 57.15 0)
@@ -4681,15 +4721,15 @@
 		)
 		(uuid "a280c1b1-9c6a-44bc-8546-73ae5b09be02")
 	)
-	(label "IO11"
-		(at 173.99 86.36 180)
+	(label "IO42"
+		(at 91.44 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a3750511-e2e0-4426-808a-e272183fe523")
+		(uuid "ad34a4f1-2e6f-4c55-8c52-76f245929b5e")
 	)
 	(label "LORA_BUSY"
 		(at 269.24 59.69 180)
@@ -4700,16 +4740,6 @@
 			(justify right bottom)
 		)
 		(uuid "ad769d6d-57be-412f-85d2-c29b8514fe4e")
-	)
-	(label "IO13"
-		(at 35.56 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aec2620d-1338-4301-b889-a49a6570a65f")
 	)
 	(label "EN"
 		(at 127 55.88 0)
@@ -4741,15 +4771,15 @@
 		)
 		(uuid "b250c8c4-a041-4c1a-8897-e3a0c7cf5f1b")
 	)
-	(label "IO3"
-		(at 127 86.36 0)
+	(label "IO15"
+		(at 127 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b606d270-d39c-4ad0-91b4-a6f5bea21eab")
+		(uuid "b76e65c3-2aba-485c-a495-434b18c8f080")
 	)
 	(label "LORA_SCK"
 		(at 217.17 62.23 0)
@@ -4760,6 +4790,16 @@
 			(justify left bottom)
 		)
 		(uuid "b91732d0-1fdd-4de1-96b5-8b13e0e56448")
+	)
+	(label "IO8"
+		(at 35.82 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6947970-c82f-4a23-b703-066303df12b9")
 	)
 	(label "IO2"
 		(at 173.99 55.88 180)
@@ -4781,18 +4821,18 @@
 		)
 		(uuid "c7da0f3c-c5d5-42a6-a7e5-65bf3e0ce492")
 	)
-	(label "IO21"
-		(at 173.99 76.2 180)
+	(label "IO8"
+		(at 127 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "c9a54ed9-8f41-46d4-91e3-8ef29fd5eeb1")
+		(uuid "c9cc15dc-b1ce-4edc-99fe-7cbc93a72e3c")
 	)
 	(label "USER"
-		(at 173.99 66.04 180)
+		(at 173.99 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4801,7 +4841,7 @@
 		)
 		(uuid "ca05fe5f-8821-4b6e-bacd-ffbdd37f10eb")
 	)
-	(label "LORA_RST"
+	(label "~{LORA_RST}"
 		(at 217.17 64.77 0)
 		(effects
 			(font
@@ -4842,7 +4882,7 @@
 		(uuid "ca89d455-7c27-4909-ad6d-10c37d9cc6ef")
 	)
 	(label "LORA_MOSI"
-		(at 35.56 81.28 0)
+		(at 35.56 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4851,18 +4891,8 @@
 		)
 		(uuid "d76fe6d0-eaa2-4f23-b92c-c7870da9bb79")
 	)
-	(label "IO17"
-		(at 127 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d78dcd32-41ae-437f-8e42-caccf2b5faa3")
-	)
 	(label "LORA_DIO"
-		(at 91.44 78.74 180)
+		(at 91.44 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4881,16 +4911,6 @@
 			(justify left bottom)
 		)
 		(uuid "e06766b9-9d77-4041-aee7-a74ffd02b2d6")
-	)
-	(label "IO18"
-		(at 127 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5147454-e6f7-456a-947b-6d280b719292")
 	)
 	(label "IO15"
 		(at 35.56 93.98 0)
@@ -4912,18 +4932,8 @@
 		)
 		(uuid "ec3c2509-2997-4fbf-823d-3590d6399185")
 	)
-	(label "IO14"
-		(at 173.99 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed3f1f1a-c5d7-406b-91a9-110b8fad0843")
-	)
 	(label "LORA_MISO"
-		(at 35.56 78.74 0)
+		(at 35.56 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4952,23 +4962,13 @@
 		)
 		(uuid "f9535a04-ac88-472f-ac62-4a3ee3289498")
 	)
-	(label "IO16"
-		(at 127 78.74 0)
+	(label "~{LORA_RST}"
+		(at 35.56 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
-		)
-		(uuid "f972e479-c8eb-4ae1-bfc5-7809b9a43ce9")
-	)
-	(label "LORA_RST"
-		(at 91.44 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
 		)
 		(uuid "ff1a6a8c-6317-4c2f-afde-a79708164722")
 	)
@@ -5958,7 +5958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/858/LTST-C190GKT.pdf"
 			(at 91.44 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6783,7 +6783,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7da3089a-1416-42c5-9bae-d5cbffab41bf")
+		(uuid "7dfd0282-a076-4bea-a22b-fe6b3ca620b4")
 		(property "Reference" "SW1"
 			(at 137.16 144.272 0)
 			(show_name no)
@@ -6893,10 +6893,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4d5c06d-fea4-457e-8332-e128bc1bbdeb")
+			(uuid "0fa20bbc-4b00-440d-b313-96938fdec607")
 		)
 		(pin "2"
-			(uuid "0e3aff19-253a-4990-ad3d-0a1336cda8c4")
+			(uuid "96de43ad-e7c4-425d-82f3-c001bd9325ac")
 		)
 		(instances
 			(project "acer-core"
@@ -7903,8 +7903,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
-			(at 64.516 101.092 0)
+		(property "Value" "ESP32-S3-WROOM-1-N4"
+			(at 63.246 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7958,7 +7958,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ESP32-S3-WROOM-1-N4"
 			(at 62.23 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7969,7 +7969,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Espressif"
 			(at 62.23 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7980,7 +7980,18 @@
 				)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
+			(at 62.23 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier_PN" "1965-ESP32-S3-WROOM-1-N4CT-ND"
 			(at 62.23 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8334,7 +8345,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WIO-SX1262 WIRELESS MODULE-BULK"
 			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8345,7 +8356,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "114993390"
 			(at 243.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8356,7 +8367,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Seeed"
 			(at 243.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8367,7 +8378,29 @@
 				)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
+			(at 243.84 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 243.84 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier_PN" "1597-114993390CT-ND"
 			(at 243.84 63.5 0)
 			(hide yes)
 			(show_name no)
