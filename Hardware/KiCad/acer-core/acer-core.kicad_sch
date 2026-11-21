@@ -687,6 +687,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3016,6 +3139,18 @@
 		(uuid "153d543f-518b-4659-a201-0d3434147ee4")
 	)
 	(rectangle
+		(start 200 100)
+		(end 277 155)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cb5bbb35-3e04-4fff-bf0b-d4f0e61153e1")
+	)
+	(rectangle
 		(start 116.84 133.35)
 		(end 153.67 193)
 		(stroke
@@ -3056,6 +3191,16 @@
 			)
 		)
 		(uuid "5dabe815-4080-4390-972d-9ee6b1b752e1")
+	)
+	(text "Probes"
+		(exclude_from_sim no)
+		(at 204.724 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e888c0b-b003-416d-9677-2c0f882fdd2e")
 	)
 	(junction
 		(at 36.83 133.35)
@@ -3339,6 +3484,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 125.73) (xy 241.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29948636-a8f4-46d4-8f29-74b3a3f24365")
+	)
+	(wire
+		(pts
 			(xy 34.29 34.29) (xy 41.91 34.29)
 		)
 		(stroke
@@ -3349,7 +3504,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 78.74) (xy 120.65 76.2)
+			(xy 121.92 74.93) (xy 121.92 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3436,6 +3591,16 @@
 			(type default)
 		)
 		(uuid "32a12dc4-2b8c-4a6b-a5da-f6e69383af41")
+	)
+	(wire
+		(pts
+			(xy 228.6 135.89) (xy 241.3 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3547bacd-bb48-4c80-b0be-4b46adbb96c6")
 	)
 	(wire
 		(pts
@@ -3619,13 +3784,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 134.62 73.66)
+			(xy 228.6 120.65) (xy 241.3 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "570d1554-69d2-4fb6-bbac-5cb8f6dab36f")
+		(uuid "5e1e8f97-08f7-4100-9e56-d540a1c35fe0")
 	)
 	(wire
 		(pts
@@ -3829,6 +3994,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 130.81) (xy 241.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89227575-40c8-40cd-a115-3012123d4a25")
+	)
+	(wire
+		(pts
 			(xy 34.29 43.18) (xy 34.29 44.45)
 		)
 		(stroke
@@ -3836,6 +4011,16 @@
 			(type default)
 		)
 		(uuid "8b50c800-1b4a-4f63-a98f-3d731a5c0f33")
+	)
+	(wire
+		(pts
+			(xy 121.92 73.66) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946729e2-6c1d-4610-b56d-fbbe26e6dcd4")
 	)
 	(wire
 		(pts
@@ -3879,23 +4064,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 63.5) (xy 173.99 63.5)
+			(xy 166.37 63.5) (xy 179.07 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a4f028a-c1eb-450b-affc-de17dda1d2d6")
-	)
-	(wire
-		(pts
-			(xy 120.65 76.2) (xy 134.62 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ab970b9-9153-4b99-96c2-641eaec225b7")
 	)
 	(wire
 		(pts
@@ -3966,16 +4141,6 @@
 			(type default)
 		)
 		(uuid "a8e40798-c5d5-432e-9ac6-840789fa3883")
-	)
-	(wire
-		(pts
-			(xy 166.37 76.2) (xy 179.07 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a978c35a-25b3-4eec-a2cf-f0083dacfe42")
 	)
 	(wire
 		(pts
@@ -4119,6 +4284,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 76.2) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacea7bd-3fa0-48f6-a4f3-bd3aa5cbe876")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb086f66-6179-4f2c-95bc-5bb4c53e2831")
+	)
+	(wire
+		(pts
 			(xy 129.54 156.21) (xy 144.78 156.21)
 		)
 		(stroke
@@ -4229,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 76.2) (xy 179.07 77.47)
+			(xy 179.07 63.5) (xy 179.07 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4368,7 +4553,7 @@
 		(uuid "0436d35b-b52e-4fbd-a937-962db0968b3a")
 	)
 	(label "IO40"
-		(at 173.99 68.58 180)
+		(at 173.99 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4378,7 +4563,7 @@
 		(uuid "08032819-5cdf-4091-9196-d907a288d88c")
 	)
 	(label "IO39"
-		(at 173.99 71.12 180)
+		(at 173.99 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4407,6 +4592,16 @@
 		)
 		(uuid "09cd328e-bb28-458b-96da-6623c995ea5f")
 	)
+	(label "LORA_SCK"
+		(at 228.6 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bc6ab06-db0c-4328-8136-56ef35b874fb")
+	)
 	(label "TXD0"
 		(at 91.44 50.8 180)
 		(effects
@@ -4416,6 +4611,16 @@
 			(justify right bottom)
 		)
 		(uuid "0ed3a1e3-69a5-4530-a7d0-39e3906880fa")
+	)
+	(label "LORA_MISO"
+		(at 228.6 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "131dc19c-4863-4214-b4da-741e3c23e328")
 	)
 	(label "IO38"
 		(at 91.44 76.2 180)
@@ -4518,7 +4723,7 @@
 		(uuid "3d16a353-8e09-4a6f-99b7-44f896ca69a6")
 	)
 	(label "IO38"
-		(at 173.99 73.66 180)
+		(at 173.99 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4548,7 +4753,7 @@
 		(uuid "44d60cd3-03bf-4388-905b-e6883427f7af")
 	)
 	(label "IO41"
-		(at 173.99 66.04 180)
+		(at 173.99 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4689,7 +4894,7 @@
 		(uuid "86be8147-4623-41cd-98ff-ff3b243f29b4")
 	)
 	(label "IO42"
-		(at 173.99 63.5 180)
+		(at 173.99 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4747,6 +4952,16 @@
 			(justify right bottom)
 		)
 		(uuid "90e346d4-7505-4a50-9dd2-0cc772d3bb5e")
+	)
+	(label "LORA_NSS"
+		(at 228.6 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90f9d251-38e4-4121-a912-83f954685217")
 	)
 	(label "USB_D+"
 		(at 127 71.12 0)
@@ -4849,7 +5064,7 @@
 		(uuid "b250c8c4-a041-4c1a-8897-e3a0c7cf5f1b")
 	)
 	(label "IO15"
-		(at 127 73.66 0)
+		(at 127 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4957,6 +5172,16 @@
 			(justify left bottom)
 		)
 		(uuid "ca89d455-7c27-4909-ad6d-10c37d9cc6ef")
+	)
+	(label "LORA_MOSI"
+		(at 228.6 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd155392-a70f-41e4-94ba-059eb6c38b2c")
 	)
 	(label "LORA_MOSI"
 		(at 35.56 88.9 0)
@@ -5867,7 +6092,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 78.74 0)
+		(at 121.92 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5878,7 +6103,7 @@
 		(fields_autoplaced yes)
 		(uuid "28360991-b822-4749-a0e8-ccb1a3dce5e6")
 		(property "Reference" "#PWR07"
-			(at 120.65 85.09 0)
+			(at 121.92 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5889,7 +6114,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 83.82 0)
+			(at 121.92 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5899,7 +6124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 78.74 0)
+			(at 121.92 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5910,7 +6135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 78.74 0)
+			(at 121.92 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5921,7 +6146,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 78.74 0)
+			(at 121.92 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6461,6 +6686,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c6284d7-dfc6-40fa-be0f-cd12a2d0c1b3")
+		(property "Reference" "TP1"
+			(at 246.38 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 246.38 121.9199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 241.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 241.3 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff194b92-7c0e-4ff2-8ba2-ef88920b59e8")
+		)
+		(instances
+			(project "acer-core"
+				(path "/ed30ef93-db3d-4278-9d16-74ba58770cf6"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 129.54 152.4 0)
 		(unit 1)
@@ -6830,6 +7145,96 @@
 			(project "acer-core"
 				(path "/ed30ef93-db3d-4278-9d16-74ba58770cf6"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 135.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a311040-130d-4e3a-8bcc-b1a50f47f5ea")
+		(property "Reference" "TP4"
+			(at 246.38 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 246.38 137.1599 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 241.3 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 241.3 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b1bc7c9-1e84-4808-b6be-791248e01b73")
+		)
+		(instances
+			(project "acer-core"
+				(path "/ed30ef93-db3d-4278-9d16-74ba58770cf6"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8326,6 +8731,186 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 130.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee8abee7-c279-4f2d-9783-cdfca36eadf7")
+		(property "Reference" "TP3"
+			(at 246.38 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 246.38 132.0799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 241.3 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 241.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0eb06021-34f5-41bb-af4a-bc84c313d369")
+		)
+		(instances
+			(project "acer-core"
+				(path "/ed30ef93-db3d-4278-9d16-74ba58770cf6"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f21703d3-27bd-4997-bdd7-1469cf4da4fc")
+		(property "Reference" "TP2"
+			(at 246.38 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 246.38 126.9999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 241.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 241.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa565bc3-e2cc-4035-b6a0-d4c09840d902")
+		)
+		(instances
+			(project "acer-core"
+				(path "/ed30ef93-db3d-4278-9d16-74ba58770cf6"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
 		(at 62.23 73.66 0)
 		(unit 1)
@@ -8658,7 +9243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 77.47 0)
+		(at 179.07 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8669,7 +9254,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa0e6827-c30c-42a9-ab84-4a8afa30e237")
 		(property "Reference" "#PWR010"
-			(at 179.07 83.82 0)
+			(at 179.07 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8680,7 +9265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 82.55 0)
+			(at 179.07 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8690,7 +9275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 77.47 0)
+			(at 179.07 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8701,7 +9286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 77.47 0)
+			(at 179.07 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8712,7 +9297,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 77.47 0)
+			(at 179.07 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

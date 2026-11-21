@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|139065000|78625000|72aee1b4-e5d0-4c92-a516-ec301a7e7d11|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -554,7 +559,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.5,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -919,7 +924,7 @@
         "uuid": "ed30ef93-db3d-4278-9d16-74ba58770cf6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-4",
     "variants": []
   },
   "sheets": [
